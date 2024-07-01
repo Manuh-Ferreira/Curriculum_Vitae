@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background-image: url('./imgs/fundoverdeparte2.avif');
+    background-attachment: fixed;
+}
+
+*{
+    font-family: 'libre baskerville';
+}
+
+p{
+    font-size: 1rem;
+}
+
+.contPagina {
+    background-color: rgb(226, 255, 223);
+    margin: auto;
+    margin-top: -22px;
+    width: 90%;
+    color: #2f4740;
+}
+
+.contPagina h1, p{
+    margin-top: 2%;
+}
+.contPagina img{
+    margin-top: 17%;
+}
+
+.contText{
+    line-height: 25px;
+    margin: auto;
+    width: 90%;
+}
+
+#Curriculum {
+    margin: auto;
+    width: 70%;
+    padding: 10%;
+    background-color: #33A474;
+    top: 40px;
+    position: relative;
+    text-align: center;
+    color: #d8eee5;
+    font-size: 220%;
+}
+
+#Nome{
+    margin: auto;
+    width: 87%;
+    background-color: #4e5d72;
+    top: 120px;
+    position: relative;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-weight: 500;
+}
+
+#Rodape{
+    margin: auto;
+    background-color: #33A474;
+    width: 70%;
+    padding: 10%;
+    bottom: 40px;
+    position: relative;
+    text-align: center;
+    color: #d8eee5;
+    font-size: 130%;
+}
+
+#fotocurriculo{
+    border-radius: 47%;
+    position: center;
+}
+
+h2 {
+    border: 1px solid gray;
+    padding: 1.5%;
+    border-bottom: 10px solid #83ccb4;
+    border-top: 10px solid #83ccb4;
+    width: 90%;
+    margin: auto;
+    color: #344964;
+    text-align: center;
+}
+
+h1, h2, footer{
+    margin-top: 6%;
+}
+
+.aref{
+    color: #2f4740;
+}
+
+.aref:hover {
+    background-color: #3d6658;
+    color: #83ccb4;
+}
